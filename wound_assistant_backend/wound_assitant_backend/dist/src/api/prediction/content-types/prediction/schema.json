@@ -1,0 +1,45 @@
+{
+    "kind": "collectionType",
+    "collectionName": "predictions",
+    "info": {
+        "singularName": "prediction",
+        "pluralName": "predictions",
+        "displayName": "Prediction",
+        "description": "Wound assessment predictions"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "attributes": {
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true
+        },
+        "predictionStatus": {
+            "type": "enumeration",
+            "enum": [
+                "healing",
+                "infected",
+                "concerning",
+                "normal"
+            ],
+            "required": true
+        },
+        "notes": {
+            "type": "text"
+        },
+        "predictionConfidence": {
+            "type": "float",
+            "min": 0,
+            "max": 1,
+            "required": true
+        },
+        "user": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "plugin::users-permissions.user",
+            "inversedBy": "predictions"
+        }
+    }
+}

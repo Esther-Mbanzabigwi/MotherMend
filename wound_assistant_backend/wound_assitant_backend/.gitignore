@@ -1,0 +1,10 @@
+.tmp
+.strapi
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+data/
+.data/
+node_modules/

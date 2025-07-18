@@ -110,7 +110,7 @@ npx expo start
   - Testing with **different data values** and simulated lighting conditions.  
 
 - **Demo Video:**  
-  [**Watch Demo (5 min)**](https://your-demo-link.com)
+  [**Watch Demo (5 min)**](https://youtu.be/YsZlm6oCXKk)
 
 ---
 

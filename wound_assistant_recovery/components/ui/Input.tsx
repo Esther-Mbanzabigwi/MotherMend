@@ -25,6 +25,8 @@ interface InputProps {
   multiline?: boolean;
   numberOfLines?: number;
   error?: string;
+  onSubmitEditing?: () => void;
+  returnKeyType?: "done" | "go" | "next" | "search" | "send";
 }
 
 const Input: React.FC<InputProps> = ({
@@ -41,6 +43,8 @@ const Input: React.FC<InputProps> = ({
   multiline = false,
   numberOfLines = 1,
   error,
+  onSubmitEditing,
+  returnKeyType = "done",
 }) => {
   return (
     <View style={[SharedStyles.formGroup, style]}>
@@ -66,6 +70,8 @@ const Input: React.FC<InputProps> = ({
           placeholderTextColor={Colors.light.gray[400]}
           multiline={multiline}
           numberOfLines={numberOfLines}
+          onSubmitEditing={onSubmitEditing}
+          returnKeyType={returnKeyType}
         />
       </View>
     </View>

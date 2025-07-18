@@ -60,12 +60,11 @@ F-c-section/
     └── android/                        # Android specific files
 ```
 
-## App Interface Screenshots
+## App Interface 
 
-[Insert screenshots of key app interfaces here]
 1. Home Screen
 2. Camera Screen
-3. Gallery Screen
+3. Gallery Screen 
 4. Results Screen
 
 ## Deployment Plan
@@ -98,7 +97,7 @@ F-c-section/
    - Setup monitoring for model performance
 
 ## Video Demo
-[Link to Video Demo]
+[MotherMend Demo](https://youtu.be/JpcSdBfA39s)]
 
 The video demonstration covers:
 1. App Overview
@@ -126,9 +125,6 @@ The video demonstration covers:
 - Offline classification capability
 - Result sharing functionality
 - Historical record keeping
-
-## License
-[Insert License Information]
 
 ## Acknowledgments
 Based on research work published in:

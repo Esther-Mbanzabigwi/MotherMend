@@ -60,12 +60,23 @@ F-c-section/
     └── android/                        # Android specific files
 ```
 
-## App Interface 
+## App Interface screenshoots
 
 1. Home Screen
+   <img width="591" height="1280" alt="image" src="https://github.com/user-attachments/assets/3439791d-855e-48ff-a0cb-57998c0aa00d" />
+   ![WhatsApp Image 2025-07-18 at 19 07 18](https://github.com/user-attachments/assets/6b5d192d-8759-4f88-9ff4-bd6c85db1c18)
+   
+    ![WhatsApp Image 2025-07-18 at 19 10 52](https://github.com/user-attachments/assets/eb68bdc7-3d5a-4d6b-977c-0b39e4880629)
+
 2. Camera Screen
-3. Gallery Screen 
-4. Results Screen
+   ![WhatsApp Image 2025-07-18 at 19 11 09](https://github.com/user-attachments/assets/7fd72941-409b-45cb-b704-7769b4640464)
+
+  
+3. Results Screen 
+
+   ![WhatsApp Image 2025-07-18 at 19 11 50](https://github.com/user-attachments/assets/df13ec9d-eea7-402a-8efd-e778a6dd360e)
+
+
 
 ## Deployment Plan
 

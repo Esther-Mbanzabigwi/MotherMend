@@ -2,7 +2,7 @@
 
 > **An AI-powered mobile application for early detection of post-cesarean wound infections in Rwanda.**
 
-MotherMend leverages **React Native**, **FastAPI/Strapi**, and a **MobileNetV2-based CNN** to classify C-section wound images into six categories (Healthy Tissue, Eschar, Granulating Tissue, Necrotic Tissue, Slough, Undefined). It provides **real-time feedback**, **offline functionality**, and a **secure data pipeline**, enabling mothers and CHWs to monitor wounds and prevent surgical site infections (SSIs).
+MotherMend leverages **React Native**, **FastAPI/Strapi**, and a **python CNN** to classify C-section wound images into six categories (Healthy Tissue, Eschar, Granulating Tissue, Necrotic Tissue, Slough, Undefined). It provides **real-time feedback**, **offline functionality**, and a **secure data pipeline**, enabling mothers and CHWs to monitor wounds and prevent surgical site infections (SSIs).
 
 ---
 
@@ -52,9 +52,9 @@ MotherMend leverages **React Native**, **FastAPI/Strapi**, and a **MobileNetV2-b
 
 ## **Tech Stack**
 - **Mobile App:** React Native, Expo, TypeScript  
-- **Backend & APIs:** FastAPI, Strapi, Python  
-- **AI Model:** TensorFlow, Keras, MobileNetV2  
-- **Database:** PostgreSQL / SQLite  
+- **Backend & APIs:** FastAPI, Strapi, Typescript 
+- **AI Model:** python, MobileNetV2  
+- **Database:** PostgreSQL
 - **Cloud Services:** Firebase, AWS S3 (optional)
 
 ---
